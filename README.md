@@ -86,7 +86,7 @@ SUMMARIZE(
 FrameNodeTable = DISTINCT(SELECTCOLUMNS('all',"Frame",[lpar_info.Frame],"Node",[lpar_info.Node]))
 ```
 
-These DAX formulas are designed to create relationships in the Power BI data model. By using the `TimestampTable` and `FrameNodeTable`, you can establish a one-to-all relationship with the main data table (`'all'`). This enables filtering and selection based on timestamps, frames, and nodes across all metrics, providing a seamless experience for data exploration and analysis.
+These DAX formulas are designed to create relationships in the Power BI data model. By using the `TimestampTable` and `FrameNodeTable`, you can establish a one-to-all relationship with the main data tables . This enables filtering and selection based on timestamps, frames, and nodes across all metrics, providing a seamless experience for data exploration and analysis.
 
 ### UARGS and TOP Relationship
 
