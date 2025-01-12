@@ -66,13 +66,8 @@ The script creates subdirectories under the specified output directory:
 2. **Build NDJSON**: It processes data into various categories.
 3. **Save Files**: Writes structured NDJSON to the respective directories.
 
-## Example Workflow
-
-1. Place all `.nmon` files in a directory, e.g., `./nmon_logs`.
-2. Run the script using the command provided above.
-3. Navigate to the output directory, where you will find the parsed NDJSON files categorized into subfolders.
-
 ## Power BI Integration
+![alt text](https://github.com/nazihous/nmon2pbi/blob/main/capture3.jpg?raw=true)
 
 To integrate the processed data into Power BI, you can use the following DAX queries:
 
