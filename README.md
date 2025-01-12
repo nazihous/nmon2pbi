@@ -91,4 +91,3 @@ you can drill down into specific time intervals to identify processes causing CP
 
 ### FOR MORE
 - you can use nmonchart to make comparison  ,  check : https://nmon.sourceforge.io/pmwiki.php
-- 
