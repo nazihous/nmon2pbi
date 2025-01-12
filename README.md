@@ -16,7 +16,14 @@ This repository contains a Python script that processes `.nmon` files  into str
 Install dependencies:
 
 ```bash
-pip install -r requirements.txt
+argparse
+multiprocessing
+json
+os
+re
+hashlib
+datetime
+glob
 ```
 
 ## Usage
