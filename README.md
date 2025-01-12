@@ -92,6 +92,7 @@ FrameNodeTable = DISTINCT(SELECTCOLUMNS('all',"Frame",[lpar_info.Frame],"Node",[
 These DAX formulas are designed to create relationships in the Power BI data model. By using the `TimestampTable` and `FrameNodeTable`, you can establish a one-to-all relationship with the main data tables . This enables filtering and selection based on timestamps, frames, and nodes across all metrics, providing a seamless experience for data exploration and analysis.
 
 ### UARGS and TOP Relationship
+![alt text](https://github.com/nazihous/nmon2pbi/blob/main/capture6.jpg?raw=true)
 If you're familiar with NMON, this script enables you to map UARGS (-T for nmon recording) data (collected once) to TOP data using a special primary/secondary key. This lets you display information like PID, command, and %CPU from TOP, alongside the corresponding full command, user, and group from UARGS.
 you can drill down into specific time intervals to identify processes causing CPU spikes based on PID, PPID, full command, command, or user.
 - Each `UARGSID` is derived from a combination of `PID`, timestamp, and file-specific details, ensuring uniqueness.
