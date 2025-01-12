@@ -53,7 +53,7 @@ The script creates subdirectories under the specified output directory:
 2. **Build NDJSON**: It processes data into various categories.
 3. **Save Files**: Writes structured NDJSON to the respective directories.
 
-## Power BI Integration
+## Power BI Integration ( DAX & DATA MODELING)
 ![alt text](https://github.com/nazihous/nmon2pbi/blob/main/capture3.jpg?raw=true)
 
 To integrate the processed data into Power BI, you can use the following DAX queries:
