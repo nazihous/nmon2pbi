@@ -14,19 +14,6 @@ This repository contains a Python script that processes `.nmon` files  into str
 - Python 3.6+
 - Required libraries: `argparse`, `json`, `os`, `multiprocessing`, `re`, `hashlib`
 
-Install dependencies:
-
-```bash
-argparse
-multiprocessing
-json
-os
-re
-hashlib
-datetime
-glob
-```
-
 ## Usage
 
 Run the script from the command line:
