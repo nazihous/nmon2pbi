@@ -93,6 +93,7 @@ These DAX formulas are designed to create relationships in the Power BI data mod
 
 ### UARGS and TOP Relationship
 ![alt text](https://github.com/nazihous/nmon2pbi/blob/main/capture6.jpg?raw=true)
+![alt text](https://github.com/nazihous/nmon2pbi/blob/main/capture7.jpg?raw=true)
 
 If you're familiar with NMON, this script enables you to map UARGS (-T for nmon recording) data (collected once) to TOP data using a special primary/secondary key. This lets you display information like PID, command, and %CPU from TOP, alongside the corresponding full command, user, and group from UARGS.
 you can drill down into specific time intervals to identify processes causing CPU spikes based on PID, PPID, full command, command, or user.
