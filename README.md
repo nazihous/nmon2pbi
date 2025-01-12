@@ -39,13 +39,15 @@ python nmon2ndjson.py --input_dir ./nmon_folder --output_dir ./json_folder --pro
 The script creates subdirectories under the specified output directory:
 
 - `all/`: Combined CPU, memory, and other data by timestamp.
-- `top/`: Data for each process.
-- `fc/`: Fibre Channel statistics.
-- `vg/`: Volume group statistics.
-- `net/`: Network interface data.
-- `jfs/`: JFS filesystem usage.
-- `disk/`: Disk statistics.
-- `uargs/`: User arguments for each process.
+- `top/`: Records the utilization statistics of top process. (-t)
+- `fc/`: Records the FC I/O statistics. This statistic is present in every iteration and for every fibre interface.
+- `vg/`: Records volume group statistics. Each metric is recorded for all volume groups that are present on the LPAR.
+- `net/`: Records the network I/O statistics. This statistic is present in every iteration and for every network interface.
+- `jfs/`: Records the Journaled File System (JFS) statistics. The proc file system is not recorded because it is a pseudo file system. 
+- `disk/`: Records I/O statistics for each disk. This statistics is recorded by default. For every disk , the same set of tags on DISK* are repeated.
+- `uargs/`: Records the process argument details. You can use the -T option to enable these recording details. The -T option automatically enables the -t option that records top process statistics. (-T)
+
+for more information : https://www.ibm.com/docs/en/aix/7.2?topic=reference-nmon-recording-tool
 
 ## How It Works
 
