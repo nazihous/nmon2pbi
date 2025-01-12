@@ -90,7 +90,6 @@ you can drill down into specific time intervals to identify processes causing CP
 Mapping UARGS to TOP works as follows:
 -  UARGS Parsing: Each UARGS entry is identified by a unique combination of PID (process ID), timestamp, and file ID. This generates a unique hash (UARGSID) for every UARGS entry.
 -  Mapping: During TOP parsing, each process in TOP (PID) is checked against the PID in the UARGS dictionary. If a match is found, the corresponding UARGSID is added to the TOP entry.
--  Result: This links detailed UARGS metadata (like full command, user, etc.) to the process-level metrics in TOP, enriching the TOP documents.
 
 ### FOR MORE 
 - you can use nmonchart to make comparison  ,  check : https://nmon.sourceforge.io/pmwiki.php
