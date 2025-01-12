@@ -37,7 +37,7 @@ python nmon2ndjson.py  --input_dir <path_to_nmon_files> --output_dir <output_pat
 ### Example
 
 ```bash
-python nmon2ndjson.py --input_dir ./nmon_folder --output_dir ./nmon --processes 4
+python nmon2ndjson.py --input_dir ./nmon_folder --output_dir ./json_folder --processes 4
 ```
 
 ### Arguments
