@@ -1,6 +1,7 @@
 # NMON to NDJSON Converter ... FOR POWERBI/EXCEL
 
 This repository contains a Python script that processes `.nmon` files  into structured NDJSON (Newline-Delimited JSON) files for further analysis in POWERBI.
+![alt text](https://github.com/nazihous/nmon2pbi/blob/main/capture5.jpg?raw=true)
 
 ## Features
 
