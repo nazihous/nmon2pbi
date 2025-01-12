@@ -37,6 +37,7 @@ python nmon2ndjson.py --input_dir ./nmon_folder --output_dir ./json_folder --pro
 ## Output Structure
 
 The script creates subdirectories under the specified output directory:
+![alt text](https://github.com/nazihous/nmon2pbi/blob/main/capture8.jpg?raw=true)
 
 - `all/`: Combined CPU, memory, and other data by timestamp.
 - `top/`: Records the utilization statistics of top process. (-t)
